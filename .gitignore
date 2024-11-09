@@ -1,0 +1,43 @@
+// Visual Studio related items
+[Oo]bj
+[Bb]in
+_ReSharper.*
+artifacts/
+*.user
+*.suo
+*.userprefs
+*.dotSettings.user
+*.vs
+*.sln.ide
+StyleCop.Cache
+.vs/
+.idea
+*.png.cache
+**/src/images
+*.drawio.dtmp
+*.drawio.bkp
+
+// Test reports
+*TestResult.xml
+*_result.txt
+
+// Generated test files
+**/TestFiles/**/*.aiji
+**/TestFiles/**/*OriginalSummary.xml
+**/TestFiles/**/*GeneratedSummary.xml
+
+// Settings
+/src/apps/JobPlayer/appsettings.Development.json
+/build/job-scan-status.json
+
+*.exe
+!AI.DynamicLaserAssignment.exe
+/src/installer/JobPlayer-Version.txt
+
+**/*.feature.cs
+*.DotSettings
+
+CertificateStores
+
+//intelliJ files
+.idea/
